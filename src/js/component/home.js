@@ -15,6 +15,8 @@ export function Home() {
 			<Showcase />
 			<Cards />
 			<Banner />
+			<Cards />
+			<Banner />
 		</div>
 	);
 }
