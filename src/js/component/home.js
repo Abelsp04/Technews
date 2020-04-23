@@ -6,6 +6,9 @@ import Navbar from "../component/navbar.js";
 import Showcase from "./showcase.js";
 import Cards from "./cards.js";
 import Banner from "./banner.js";
+import Social from "./social.js";
+import FooterLinks from "./footer-links.js";
+import Footer from "./footer.js";
 //create your first component
 export function Home() {
 	return (
@@ -17,6 +20,9 @@ export function Home() {
 			<Banner />
 			<Cards />
 			<Banner />
+			<Social />
+			<FooterLinks />
+			<Footer />
 		</div>
 	);
 }
