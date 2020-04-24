@@ -1,23 +1,24 @@
 import React from "react";
 
 //include images into your bundle
-
+import { Btn } from "./btn.js";
 //create your first component
 export function Home() {
 	return (
 		<div className="container">
 			{/* Navbar */}
+			<Btn />
 
 			<div className="container">
 				<nav className="nav-main">
 					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTos_hv1kpn6_GyYKnHq-NVgaLHPV7LyCD2vVrdbz3ZzBxRofAL&usqp=CAU"
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1GQcxOAPMgAWadniqodkkefnJdgigYeyPhnBNMTrWUVFwPm_i&usqp=CAU"
 						alt="techNews Logo"
 						className="nav-brand"
 					/>
-					<ul className="nav-menu ">
+					<ul className="nav-menu show ">
 						<li>
-							<a href="#">Web Development</a>
+							<a href="#">Website</a>
 						</li>
 						<li>
 							<a href="#">Block Chain</a>
@@ -361,8 +362,12 @@ export function Home() {
 			</div>
 			{/* Footer */}
 			<footer className="footer">
-				<h3>Tech News Copyright</h3>
+				<h5>Technews Copyright</h5>
 			</footer>
 		</div>
 	);
 }
+
+// document.querySelector(".menu-btn").addEventListener("click", () => {
+// 	document.querySelector(".nav-menu").classList.toggle("show");
+// });
