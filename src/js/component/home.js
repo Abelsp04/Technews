@@ -1,13 +1,14 @@
 import React from "react";
-
+import ReactDOM from "react-dom";
 //include images into your bundle
-import { Btn } from "./btn.js";
 //create your first component
 export function Home() {
 	return (
 		<div className="container">
 			{/* Navbar */}
-			<Btn />
+			<div className="menu-btn">
+				<i className="fas fa-bars" />
+			</div>
 
 			<div className="container">
 				<nav className="nav-main">
@@ -367,7 +368,3 @@ export function Home() {
 		</div>
 	);
 }
-
-// document.querySelector(".menu-btn").addEventListener("click", () => {
-// 	document.querySelector(".nav-menu").classList.toggle("show");
-// });

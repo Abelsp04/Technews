@@ -14,3 +14,6 @@ import { Home } from "./component/home.js";
 //render your react application
 
 ReactDOM.render(<Home />, document.querySelector("#app"));
+document.querySelector(".menu-btn").addEventListener("click", () => {
+	document.querySelector(".nav-menu").classList.toggle("show");
+});
