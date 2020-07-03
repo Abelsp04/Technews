@@ -15,9 +15,9 @@ import { Home } from "./component/home.js";
 //render your react application
 
 ReactDOM.render(<Home />, document.querySelector("#app"));
-document.querySelector(".menu-btn").addEventListener("click", () => {
-	document.querySelector(".nav-menu").classList.toggle("show");
-});
+// document.querySelector(".menu-btn").addEventListener("click", () => {
+// 	document.querySelector(".nav-menu").classList.toggle("show");
+// });
 
 // ScrollReveal().reveal(".showcase-container");
 // ScrollReveal().reveal(".news-cards", { delay: 500 });

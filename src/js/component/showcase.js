@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 //include images into your bundle
 //create your first component
-export function Home() {
+export function Showcase() {
 	return (
 	
 		
