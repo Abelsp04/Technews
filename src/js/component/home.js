@@ -55,7 +55,7 @@ export function Home() {
 				</nav>
 			</div>
 			<hr />
-			// {/* Showcase */}
+			{/* Showcase */}
 			<div className="showcase-container">
 				<h2>Big News Today</h2>
 				<p>
